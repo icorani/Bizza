@@ -1,13 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import SpeakerProfile from './SpeakerProfile';
 
 function App() {
   const name = 'John Wilson'
   return (
-    <div className="App">
-      <header className="App-header">
-      <h1>Welcome to Bizza project, {name}!</h1>
-      </header>
+    <div style={{ backgroundColor: 'gray', margin: 20, color: 'white' }}>
+        <SpeakerProfile />
     </div>
   );
 }
